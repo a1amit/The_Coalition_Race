@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PARSER_H
+#define PARSER_H
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -24,3 +25,4 @@ private:
     static Agent parseAgent(const json &jAgent, int agentId);
     static Party parseParty(const json &jParty, const int id);
 };
+#endif

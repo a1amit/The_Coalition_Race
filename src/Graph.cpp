@@ -24,3 +24,8 @@ const Party &Graph::getParty(int partyId) const
 {
     return mVertices[partyId];
 }
+
+//overloaded method
+Party &Graph::getParty(int partyId){
+    return mVertices[partyId];
+}
